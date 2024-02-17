@@ -1,0 +1,17 @@
+Tasks:
+1. Data Info/Summary
+ - What are the columns/feature present in the dataset?
+ - What are their data types?
+ - Provide statistics of the dataset
+2. Data Preprocessing 
+ - Check for duplicate and missing values
+ - Remove jobs with "unknown" values
+ - Convert "admin" from [job] column to "management" since they are just the same
+3. Data Visualization (provide short discussion for each)
+ - Correlation Matrix
+ - Univariate analyis using KDE Graph
+ - Bivariate analysis using Scatterplot (just choose one)
+   - Balance vs Occupation
+   - Loans vs Education
+4. Train a Naive Bayes Classifier
+ - Provide model performance
